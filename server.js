@@ -5,7 +5,6 @@ import mongoose from "mongoose";
 import userRouter from "./router/userRouter.js";
 import cookieParser from "cookie-parser";
 
-
 const app=express();
 const corsOptions = {
     origin: 'http://localhost:3000',
